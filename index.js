@@ -24,6 +24,6 @@ if (process.env.NODE_ENV != 'development') {
   })
 }
 
-app.listen(999, () => {
+app.listen(process.env.PORT || 999, () => {
   console.log('Rodando na porta 999')
 })
