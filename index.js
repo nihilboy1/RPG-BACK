@@ -13,14 +13,14 @@ app.get('/api/txt', (req, res) => {
   res.send(txt)
 })
 
-app.use(express.static('../front/build'))
-app.get('*', (req, res) => {
-  res.sendFile('../front/build/index.html', error => {
-    if (error) {
-      res.status(500).send(error)
-    }
-  })
-})
+// app.use(express.static('../front/build'))
+// app.get('*', (req, res) => {
+//   res.sendFile('../front/build/index.html', error => {
+//     if (error) {
+//       res.status(500).send(error)
+//     }
+//   })
+// })
 
 app.listen(process.env.PORT || 999, () => {
   console.log('Rodando na porta 999')
