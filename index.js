@@ -2,7 +2,6 @@ const express = require('express')
 const app = express()
 require('dotenv').config()
 const cors = require("cors")
-import textos from "./textos/textos"
 
 const options = {
   origin: "http://localhost:3000"
@@ -10,9 +9,14 @@ const options = {
 
 app.use(cors(options))
 
+const txt = {
+  age1: 'primeira_era',
+  age2: 'txt2',
+  age3: 'txt3'
+}
 
 app.get('/api/txt', (req, res) => {
-  res.send(textos)
+  res.send(txt)
 })
 
 
