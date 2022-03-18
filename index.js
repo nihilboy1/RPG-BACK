@@ -2,6 +2,7 @@ const express = require('express')
 const app = express()
 require('dotenv').config()
 const cors = require("cors")
+const primeira_era = require("./textos/primeiraera.txt")
 
 const options = {
   origin: "http://localhost:3000"
@@ -10,7 +11,7 @@ const options = {
 app.use(cors(options))
 
 const txt = {
-  age1: '1',
+  age1: primeira_era,
   age2: 'txt2',
   age3: 'txt3'
 }
