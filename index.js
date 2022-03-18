@@ -1,6 +1,5 @@
 const express = require('express')
 const app = express()
-const path = require('path')
 require('dotenv').config()
 
 const txt = {
@@ -13,15 +12,13 @@ app.get('/api/txt', (req, res) => {
   res.send(txt)
 })
 
-// app.use(express.static('../front/build'))
-// app.get('*', (req, res) => {
-//   res.sendFile('../front/build/index.html', error => {
-//     if (error) {
-//       res.status(500).send(error)
-//     }
-//   })
-// })
+app.get("/google", (req, res) => {
+  let x = fetch("https://docs.googleapis.com/v1/documents/{1I_QfeXP6uqdsySQOlYjgT55SRV6U4P4O9HIIrMbJ-MM}").then((res) => {
+    console.log(res)
+    return res.json()
+  })
+})
 
-app.listen(process.env.PORT || 999, () => {
-  console.log('Rodando na porta 999')
+app.listen(process.env.PORT || 5000, () => {
+  console.log('Rodando na porta 5000')
 })
