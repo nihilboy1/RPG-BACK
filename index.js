@@ -16,8 +16,8 @@ const txt = {
   age2: 'txt2',
   age3: 'txt3'
 }
-app.get("*", (req, res) => {
-  res.sendFile("./build/index.html")
+app.get("/", (req, res) => {
+  res.render("./build/index.html")
 })
 
 app.get('/api/txt', (req, res) => {
