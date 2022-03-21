@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "./static/css/main.9f9a0e43.css",
+    "main.js": "./static/js/main.af5bc551.js",
+    "static/media/icespire.PNG": "./static/media/icespire.920b051f9eb38f8eeec0.PNG",
+    "static/media/riseoftiamat.PNG": "./static/media/riseoftiamat.fb46b6bd743c08f24686.PNG",
+    "static/media/lostmine.PNG": "./static/media/lostmine.0bb7af06896dfc95c478.PNG",
+    "static/media/tempestade.PNG": "./static/media/tempestade.a98ae2a9952f6ec9dc90.PNG",
+    "static/media/back.jpg": "./static/media/back.f0ed71700bf99423dc37.jpg",
+    "static/media/goblinbard.png": "./static/media/goblinbard.9f24547ea16bdea53640.png",
+    "static/media/avernus.PNG": "./static/media/avernus.cd783889fc3bdc114b65.PNG",
+    "static/media/goblintocha.png": "./static/media/goblintocha.24560f8a0457e6123d97.png",
+    "static/media/goblingalante.jpg": "./static/media/goblingalante.a736d1284bcb1dccae3a.jpg",
+    "static/media/bugbear.png": "./static/media/bugbear.7547a8675df16a15160e.png",
+    "static/media/goblindice.png": "./static/media/goblindice.b36d47b9b7409a84c483.png",
+    "static/media/goblinsacer.png": "./static/media/goblinsacer.6d64c71404d5e3236dd5.png",
+    "static/media/caverna.png": "./static/media/caverna.c19e8df0d605416f4b2d.png",
+    "index.html": "./index.html",
+    "main.9f9a0e43.css.map": "./static/css/main.9f9a0e43.css.map",
+    "main.af5bc551.js.map": "./static/js/main.af5bc551.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f9a0e43.css",
+    "static/js/main.af5bc551.js"
+  ]
+}

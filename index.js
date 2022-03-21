@@ -15,7 +15,7 @@ const txt = {
   age3: 'txt3'
 }
 app.get("*", (req, res) => {
-  res.send("../front/build/index.html")
+  res.send("./build/index.html")
 })
 
 app.get('/api/txt', (req, res) => {
