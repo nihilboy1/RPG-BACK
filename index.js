@@ -7,6 +7,8 @@ const options = {
   origin: "http://localhost:3000"
 }
 
+app.use(express.static("../back/build"))
+
 app.use(cors(options))
 
 const txt = {
